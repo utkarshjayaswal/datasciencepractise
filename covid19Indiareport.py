@@ -1,5 +1,6 @@
 import pandas as pd
 import matplotlib.pyplot as plt
+
 data = pd.read_csv('covid_19_india.csv')
 plt.figure(figsize=(10, 5))
 plt.xlabel('State/UnionTerritory')
