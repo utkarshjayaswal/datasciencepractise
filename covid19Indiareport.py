@@ -1,6 +1,6 @@
 import pandas as pd
 import matplotlib.pyplot as plt
-
+plt.style.use('dark_background')
 # Load the data
 data = pd.read_csv('WHO-COVID-19-global-table-data.csv')
 
